@@ -19,7 +19,7 @@ class _LatcheckboxState extends State<Latcheckbox> {
           Checkbox(
             value: isChecked,
             onChanged: (bool? value) {
-              setState(() {
+              setState(() { {}
                 isChecked = value!;
               });
             },
